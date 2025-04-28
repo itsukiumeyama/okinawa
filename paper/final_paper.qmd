@@ -1,0 +1,235 @@
+---
+title: "War, Gender, and the Making of National Identity: Evidence from Okinawa"
+date: today
+#lang: 
+#thanks: 
+author: 
+  - name: Itsuki Umeyama
+#abstract: |
+#abstractspacing 
+#keywords
+#jelcodes
+#appendix: 
+format: 
+  pdf:
+    embed-resources: true
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    number-sections: true
+    echo: false 
+    warning: false
+    cite-method: natbib
+    biblio-style: apalike
+    bibliography: references.bib
+editor: visual
+editor_options: 
+  markdown: 
+    wrap: sentence
+fontfamily: libertine
+monofont: inconsolata
+monofontoptions: scaled=.95
+fontsize: 12pt
+linestretch: 1.5
+indent: true
+documentclass: article
+geometry: margin=1in
+urlcolor: DodgerBlue4
+linkcolor: black
+citecolor: DodgerBlue4
+---
+
+\newpage
+
+# Introduction
+
+What drives individuals to abandon one identity and adopt another?
+This process has been central to the construction of modern states, which seek to cultivate a broader sense of collective identity among their populations while weakening attachments to narrower, pre-existing identities.
+The challenge is particularly acute for individuals from marginalized or colonized communities, for whom this transition often involves greater resistance and complexity.
+
+I argue that wartime deaths inflicted by enemies, particularly mass civilian and military casualties, can serve as a catalyst for colonial subjects to develop a stronger national identity, but only under specific conditions.
+In particular, I posit that the effect is contingent on the proportion of casualties who are women.
+While the state typically seeks to memorialize enemy-inflicted deaths as sacrifices for the nation, this process often generates resentment among marginalized populations, fueling grievances and, at times, rebellion.
+However, I argue that the death of a significant number of women can unexpectedly reverse this dynamic, prompting marginalized individuals to abandon their previous identities and adopt a broader, state-sponsored collective identity.
+
+In my theory, women are often the last group to be incorporated into state-building efforts.
+Early initiatives, such as mass education and military conscription, which are key mechanisms for instilling national identity, primarily target men with the aim of creating a strong military capable of winning wars.
+As a result, women, who are typically excluded from these efforts, tend to maintain stronger ties to traditional cultural practices.
+Their deaths, especially when widespread, represent the collapse of alternative cultural foundations resistant to state-led transformations.
+Consequently, in societies where significant numbers of women are killed, the colonizing state's narrative becomes increasingly dominant, facilitating the emergence or stabilization of a new national identity among the colonized population.
+
+I examine the case of Okinawa, which Japan colonized in 1879 during its territorial expansion.
+Okinawa later became the site of one of the fiercest ground battles between the United States and Japan during the Pacific War.
+In the aftermath, 149,658 civilians were reported missing, and approximately 94,000 were officially confirmed to have died as a result of the conflict.
+A substantial portion of these casualties were women and children, and I think there is a considerable variation in female casualty rates across villages.
+
+Furthermore, prior to the war, education for women in Okinawa was not widely emphasized.
+Female school attendance, even at the elementary level, was significantly lower than in other regions of Japan.
+Although data are limited, in 1888, nine years after the introduction of elementary education in Okinawa, the school attendance rate for girls was only 2.1%, compared to 13.1% for boys.
+Both figures were considerably lower than the corresponding rate of 47.4% in mainland Japan, but the particularly low attendance among girls is especially notable.
+
+For the empirical strategy, I focus on the battle of Okinawa and the period following the war, when Okinawa was under U.S. occupation.
+To measure identity transformation, I use referendum vote shares that addressed Okinawa’s future political status—specifically, whether it should become an independent nation or remain part of Japan.
+Alternatively, I use electoral vote shares from the same period, when party cleavages were primarily divided along pro-Japan versus pro-independence lines.
+I argue that both measures capture the strength of attachment to Japanese national identity among the Okinawan population.
+
+To measure exposure to wartime violence, I use village-level data on the number of deaths during the Battle of Okinawa.
+To capture the impact of female casualties, I plan to use the share of female deaths relative to the pre-war female population in each village.
+
+A potential concern is that variation in civilian deaths across villages may not be exogenous: villages with stronger pre-existing loyalty to Japan may have been less likely to surrender, resulting in higher casualties.
+To address this, I exploit variation in exposure to U.S. air raids during the Battle of Okinawa.
+Specifically, I use whether a village was struck by air raids as an instrument for the number of deaths experienced.
+Air raid strikes were largely determined by military targeting decisions and geographical features, and are plausibly exogenous to pre-existing levels of loyalty to Japan.
+Thus, I belive this strategy isolates the causal effect of wartime casualties, particularly female casualties, on postwar identity formation.
+
+The rest of this paper proceeds as follows: I first explain the mechanisms of my argument, then provide a historical overview of Okinawa.
+Next, I present the empirical strategy in detail, including the key formulas and identification assumptions.
+Finally, I conclude by describing my data collection plans for the upcoming summer.
+
+# Theory
+
+First, the baseline of my argument, which is that wartime deaths caused by enemies strengthen national identity, appears to contradict much of the existing literature, particularly in the context of colonized or marginalized populations.
+While @dejuan2024 finds a positive relationship between German casualties in World War I and subsequent support for the Nazi Party, which emphasized nationalism, most studies suggest the opposite effect in colonial settings.
+For instance, Talibova (working paper) shows that former soldiers from marginalized minority groups in Russia were more likely to join revolutionary movements seeking to dismantle the Russian Empire after World War I. Similarly, though not directly focused on marginalized populations, @fouka2023a demonstrate that German reprisals during World War II in Greece had enduring negative effects on public sentiment: in towns where victims were commemorated as “martyrs,” residents were subsequently less likely to purchase German goods or support pro-German political parties.
+
+Against this backdrop, I focus on a largely overlooked factor: the relationship between nation-building and women within marginalized communities.
+To my knowledge, prior studies have paid little attention to how the deaths of significant number of women might influence national identity formation among colonized populations.
+In the early stages of modern state-building, governmental efforts were almost exclusively directed toward male citizens.
+This focus may partly reflect the historical context, when gender equality was considered relatively unimportant, but it also aligns with a core objective of early state-building: to create a nation capable of waging and winning wars, which required the cultivation of "good soldiers" among the male population.
+
+Key institutions of state indoctrination—mass education and military service—largely excluded women.
+As a result, within marginalized groups whose languages and cultural practices were not protected or promoted by the state, women often became the primary carriers and transmitters of traditional cultural identities.
+Their exclusion from the state-building process allowed them to preserve and sustain alternative cultural foundations, even as the state sought to impose a unified national narrative.
+
+Therefore, the deaths of women represent not only a human loss but also the destruction of the cultural foundations that sustain alternative identities among marginalized populations.
+Because women often serve as the primary carriers of traditional cultural practices, their deaths significantly weaken the belief among marginalized groups that they are distinct from the dominant population.
+In this context, the state’s efforts to memorialize wartime deaths as sacrifices for the nation—which among dominant populations typically strengthens national solidarity—can similarly facilitate identity transformation among marginalized groups.
+When a significant share of women are lost within these communities, passive national integration occurs: as the state repeatedly praises the sacrifices made for the country, the sense of distinct ethnic and cultural identity gradually fades, and individuals within marginalized groups increasingly adopt a collective national identity.
+
+# The Process of Japan’s Colonization of Okinawa [^1]
+
+[^1]: This entire chapter is based on Maeda et al. (2022), \textit{Tsunagaru Okinawa Kindai Gendaishi}, Boda Ink.}
+
+Okinawa, formerly the Ryukyu Kingdom, is located in the East China Sea near Taiwan and is now a prefecture of Japan.
+Because there have been no major independence movements in Okinawa, it is often forgotten that the region was forcefully annexed into Japan through imperial expansion.
+However, Okinawa once had its own distinct kingdom, culture, and language, separate from Japan.
+
+The Ryukyu Kingdom began in 1498 when Shō Hashi unified nearby islands.
+The kingdom thrived as an intermediary in regional trade, benefiting from Japan’s policy of national isolation and maritime bans imposed by the Ming and later Qing dynasties.
+From the beginning, it was incorporated into the Ming tributary system, later maintaining this status under the Qing, as all the peripheral countries (from the perspective of China) did in this region.
+However, after Japan’s Satsuma Domain invaded in 1609, Ryukyu forced to operate under a dual-subordination system, simultaneously recognizing both Qing suzerainty and Satsuma’s authority (e.g., Ryukyu used of both Qing and Japanese imperial era names).
+
+Following the Meiji Restoration in 1868, Japan sought to centralize governance and consolidate territorial control.
+This included the territorialization of peripheral regions like Hokkaido and Ryukyu (settler colonialism was used in the former).
+In 1872, Japan granted the Ryukyu king the title of feudal lord, using the traditional Chinese tributary system.
+Notably, this occurred after Japan had abolished its own feudal domains, indicating the move as a strategic colonial measure.
+
+A turning point came after a shipwreck incident in which indigenous Taiwanese killed Okinawans.
+Japan used this event to assert to the Qing dynasty that Okinawans were Japanese subjects, and further advanced its colonial ambitions.
+In 1878, citing the Ryukyu king’s alleged disobedience, the Japanese government announced the nullification of his feudal title and the establishment of a prefecture.
+This was officially enforced in 1879, and marked the full annexation of the Ryukyu Kingdom into Japan.
+
+Although the colonization process from 1872 to 1879 occurred without bloodshed, Okinawans repeatedly sought assistance from the Qing dynasty.
+Many elites sought asylum in China, urging the Qing government to support Ryukyu’s bid for independence from Japan.
+Additionally, joint blood petitions protesting the establishment of a Japanese prefecture circulated within Ryukyu.
+However, these resistance efforts waned following Japan’s victory in the Sino-Japanese War, which solidified Japanese dominance over the region.
+
+# Okinawa’s Experience of War and the Choice to Rejoin Japan
+
+Given its historical context, it would seem natural for Okinawans to seek independence, as many colonized nations have.
+In fact, the United States—reflected in the remarks of General Douglas MacArthur, who oversaw the U.S. occupation of Japan after World War II—viewed Okinawans as ethnically distinct from the Japanese and envisioned their liberation from Japanese rule.[^2]
+However, Okinawans consistently chose to remain part of Japan.
+For instance, during the U.S. occupation following World War II, Okinawans repeatedly mobilized to demand a return to Japanese sovereignty and expressed this preference through referenda.
+
+[^2]: Sakurazawa et al. (2015), Okinawa Gendaishi, Chūkō Shinsho
+
+In the following, I briefly explain the Battle of Okinawa, the women's education system in Okinawa, and the referenda held there.
+
+The Battle of Okinawa[^3] was one of the fiercest and bloodiest battles of the Pacific War.
+The United States targeted Okinawa as a strategic base for launching air raids on mainland Japan, aiming to break Japan’s will to fight and bring about its surrender.
+For Japan, Okinawa—excluded from the definition of the “mainland” in military planning—was treated as a sacrificial pawn, used to delay the decisive battle on the mainland by even a single day.
+
+[^3]: Most of the facts I mention about the Battle of Okinawa are drawn from Yoshihama et al. (2019), Okinawasen o shiru jiten, Yoshikawa Kōbunkan, and @appleman1993c
+
+The battle lasted three months, resulting in approximately 94,000 civilian deaths (officially confirmed, though this number has steadily increased over the years, with reports of missing people far surpassing this figure, reaching 149,658).^[Somusho, Okinawaken ni okeru sensai no jōkyō, \url{https://www.soumu.go.jp/main_sosiki/daijinkanbou/sensai/situation/state/okinawa_04.html}.]
+Military casualties totaled 94,136, including 28,228 soldiers from Okinawa Prefecture and 65,908 from other regions of Japan.
+Although civilians were expected to evacuate, many chose to remain on the island.
+With Japan’s defeat becoming inevitable, some believed a U.S. attack was unavoidable and preferred to die in their homeland rather than in unfamiliar places.
+(This reasoning could also be seen as the Japanese government’s excuse for abandoning its responsibility to protect its citizens from the ravages of war.) Tragically, due to their decision to stay, one in four residents of Okinawa perished, many of them women and children.
+After the war,^[Postwar events in Okinawa are based on Sakurazawa et al. (2015), Okinawa Gendaishi, Chūkō Shinsho.] Okinawa was treated differently from the rest of Japan.
+In 1952, the Treaty of Peace with Japan came into effect, officially ending the state of war between Japan and the Allied Powers and restoring full sovereignty to the Japanese people.
+In contrast, Okinawa remained under formal U.S. control until 1972.
+
+From the outset, Okinawans expressed a strong desire to return to Japan.
+A 1951 opinion poll on Okinawa’s future showed overwhelming support for reintegration with Japan: 84.97% favored returning to Japan, 8.28% supported a U.S. trusteeship, 2.88% favored independence, and 4.77% were undecided.
+In some regions categorized as part of Okinawa, this desire translated into successful campaigns.
+For instance, in the Amami Islands, the Council for Reversion to Japan actively advocated for reintegration, and on December 25, 1953, the United States returned administrative rights over the Amami Islands to Japan.
+
+In Okinawa itself, similar movements for reversion continued until its eventual return in 1972.
+During the period of U.S. administration, local politics in Okinawa—where elections were permitted for mayoral offices—became sharply divided along the lines of political stance: those supporting reversion to Japan, those favoring independence, and those preferring continued U.S. trusteeship.
+Notably, even before the return was achieved, Okinawans chose to use Japanese textbooks rather than developing their own.
+This decision reflected a conscious effort to align Okinawan education with that of mainland Japan, with the aim of facilitating a smoother reintegration.
+
+# Empirical Strategy
+
+## Main Estimating Equation
+
+My theory predicts that the positive effect of overall deaths on national identity depends on the share of female deaths.
+This suggests a moderated regression of the following form:
+
+$$
+Y_i = \beta_0 + \beta_1\text{Deaths}_i + \beta_2 \text{FemaleShare}_i + \beta_3(\text{Deaths}_i \times \text{FemaleShare}_i) + \beta_4\text{DistanceToBase}_i + \text{X'}_i\gamma + \epsilon_i
+$$ \noindent where
+
+-   $Y_i$: strength of Japanese identity in village $i$ (e.g., pro-Japan referendum share after the World War II)
+-   $Deaths_i$: total deaths per capita
+-   $FemaleShare_i$: share of female deaths among all women in the village pre-war
+-   $DistanceToBase_i$: distance to the nearest U.S. military base (included to account for anti-American sentiments; based on the assumption that proximity to bases increased friction with U.S. soldiers, thereby influencing postwar attitudes)
+-   $\text{X}_i$: control variables
+    -   pre-war village size
+    -   literacy rate (or attendance to schools)
+    -   distance from village $i$ to the nearest Japanese military base (considering that the primary objective of the U.S. military during the ground battle was the destruction of Japanese military bases)
+    -   other socio-economic conditions
+
+## Instrumental Variable (if applicable)
+
+To address potential endogeneity, I propose using air raid strikes as an instrument:
+
+$$
+\text{Death}_i = \pi_0 + \pi_1AirRaidStrike_i + \text{X'}\pi + u_i 
+$$
+
+\noindent where:
+
+-   $AirRaidStrike_i$: 1 id village $i$ was struck by air raids, 0 otherwise (or number of strikes, bomb tonnage)
+
+\noindent The identifying assumption is that air raids were exogenous to local loyalties and primarily driven by strategic military concerns.
+Given that air raids were intended to soften resistance for ground operations, I expect a positive correlation between being targeted by air raids and higher subsequent death tolls during ground battles.
+
+## Other Concerns
+
+While I control for anti-American sentiment—since attachment to Japanese identity may be influenced by resentment toward the United States—it is also important to consider that such attachment might instead stem from pragmatism.
+In particular, I must pay attention to the role of welfare benefits, which are tied to nation-building [@alesina2020; @koehler-derrick2023; @ticchi2008], and how they may influence attachment to Japan.
+Before proceeding, however, I need to identify appropriate measures of pragmatism among Okinawans for further analysis.
+
+Moreover, I must strengthen the assumption that women played a key role in preserving cultural traditions.
+One potential approach is to examine whether the frequency of speaking the Okinawan language is negatively correlated with the share of female deaths.
+I also plan to conduct surveys to further investigate and support these proposed mechanisms.
+
+# Data Collection
+
+## Civilian Casualities
+
+My first approach is to reach out to NHK (Japan Broadcasting Corporation) staff.
+This is because they used data on civilian casualties to produce a documentary about the Battle of Okinawa.^[The documentary website: \url{https://www.nhk.or.jp/war-okinawa/}] 
+If NHK is willing to share their digitized data, I can potentially skip the time-consuming process of digitization.
+
+However, the primary holder of the original data is a memorial park called Heiwa no Ishiji.^[\url{https://heiwa-irei-okinawa.jp/facility/heiwanoishiji/}]
+The park preserves stones engraved with the names and addresses of individuals who died during the Battle of Okinawa.
+Although they likely have a digitized list of these individuals, they may be reluctant to share it.
+They might view the use of this data for statistical analysis as disrespectful, by treating individual deaths merely as numbers.
+
+## Data for Referenda
+
+I still need to search for this data, but it was likely collected by U.S. authorities, as the referenda were conducted under U.S. occupation.
+In addition to self-research, I plan to visit the Okinawa Prefectural Archives to ask for help.
